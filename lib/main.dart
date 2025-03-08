@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: GridView.count ( // 열 수를 지정하여 그리드 형태로 표시하기
+      body: GridView.count (
         crossAxisCount: 3,
         children: <Widget> [
           Container( // 컨테이너
