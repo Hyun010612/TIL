@@ -6,12 +6,9 @@
 ## for 문과 함수를 이용하여 구구단 만들기
 
 ```
-void gugudan()
-{
-  for(int i = 2; i < 10; i++)
-  {
-    for(int j = 1; j < 10; j++)
-    {
+void gugudan() {
+  for(int i = 2; i < 10; i++) {
+    for(int j = 1; j < 10; j++) {
       print('$i * $j = ${i * j}');
     }
     print(' ');
@@ -22,9 +19,7 @@ void gugudan()
 다음과 같이  void gugudan() 함수를 생성
 ```
 void main() {
-
   gugudan();
-
 }
 ```
 main() 에는 직접 만든 함수 gugudan을 호출
@@ -116,9 +111,7 @@ main() 에는 직접 만든 함수 gugudan을 호출
 ## 도형 그리기
 
 ```
-void pattern(int n)
-{
-  
+void pattern(int n) {
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
       print('*'); // * 출력
@@ -136,8 +129,7 @@ void main() {
 main() 함수에 10을 넣어 10x10 *로 사각형 그리기 제작,
 허나 여기서 발생하는 문제는 *이 새로로 출력이 된다
 ```
-void pattern(int n)
-{
+void pattern(int n) {
   
   for (int i = 0; i < n; i++) {
     String star = ''; // 한줄 저장
@@ -166,9 +158,7 @@ void pattern(int n)
 
 ### 가운대가 비어있는 사각형 만들기
 ```
-void pattern1(int n)
-{
-  
+void pattern1(int n) {
   for (int i = 0; i < n; i++) {
     String star = ''; // 한줄 저장
     for (int j = 0; j < n; j++) {
@@ -215,9 +205,7 @@ n의 값을 10으로 하고 출력 했을때의 결과값
 ### 비어있는 사각형에 / 대각선 추가하기
 
 ```
-void pattern2(int n)
-{
-  
+void pattern2(int n) {
   for (int i = 0; i < n; i++) {
     String star = ''; // 한줄 저장
     for (int j = 0; j < n; j++) {
@@ -263,9 +251,7 @@ n의 값을 10으로 하고 출력 했을때의 결과값
 ### 비어있는 사각형에 \ 대각선 추가하기
 
 ```
-void pattern3(int n)
-{
-  
+void pattern3(int n) {
   for (int i = 0; i < n; i++) {
     String star = ''; // 한줄 저장
     for (int j = 0; j < n; j++) {
@@ -312,9 +298,7 @@ n의 값을 10으로 하고 출력 했을때의 결과값
 ### X 도형 그리기
 
 ```
-void pattern4(int n)
-{
-  
+void pattern4(int n) {
   for (int i = 0; i < n; i++) {
     String star = ''; // 한줄 저장
     for (int j = 0; j < n; j++) {
