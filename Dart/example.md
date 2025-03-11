@@ -1,7 +1,7 @@
 
 # 공부한 Dart 언어를 가지고 예제 실습 해보기
 
-# 해당 실습은 *[DartPad](https://dartpad.dev/?sample=hello-world) 에서 진행하였습니다
+### 해당 실습은 [DartPad](https://dartpad.dev/?sample=hello-world) 에서 진행하였습니다
 
 ## for 문과 함수를 이용하여 구구단 만들기
 
