@@ -367,3 +367,10 @@ void main() async {
 
 ###### DateTime(2025, 3, 12); → 2025년 3월 12일을 나타내는 DateTime 객체 생성
 ###### DateFormat('EEEE', 'ko_KR') → 날짜를 "월요일", "화요일" 형식으로 변환하기
+
+```
+결과
+var input = '2025-03-17';
+
+월요일
+```
