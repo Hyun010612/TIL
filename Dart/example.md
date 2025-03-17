@@ -331,4 +331,39 @@ n의 값을 10으로 하고 출력 했을때의 결과값
 **********
 ```
 
-### 추후 수정
+### 년/월/일을 가지고 요일로 출력하기
+```
+import 'package:intl/intl.dart'; // 날짜 포맷을 위한 intl 패키지
+import 'package:intl/date_symbol_data_local.dart'; // 다국어 날짜 데이터를 로드하기 위한 패키지
+
+void main() async {
+  await initializeDateFormatting('ko_KR', null); // 한국어 날짜 데이터를 초기화
+
+  var input = '2025-03-17';
+
+  // 문자열에서 연도, 월, 일 숫자로 변환
+  var inputYear = int.parse(input.substring(0, 4)); // "2025" → 2025
+  var inputMonth = int.parse(input.substring(5, 7)); // "03" → 3 (월)
+  var inputDay = int.parse(input.substring(8, 10)); // "17" → 17 (일)
+
+  // DateTime 객체 생성 (2025년 3월 17일)
+  DateTime result = DateTime(inputYear, inputMonth, inputDay);
+
+  // 한국어 요일 포맷 적용
+  String formattedDate = DateFormat('EEEE', 'ko_KR').format(result);
+
+  print(formattedDate); // '월요일' 출력
+}
+```
+intl 패키지는 날짜와 시간을 포맷하는데 사용
+date_symbol_data_local.dart는 다국어 날짜 데이터를 로드하는데 사용
+main에 async를 추가하여 비동기(Asynchronous) 함수로 변경
+initializeDateFormatting('ko_KR', null); 한국어 로컬 데이터를 가져오기 위한 함수 -> 'ko_KR' : 한국어 / null : null을 넘기면 기본 내장된 로컬 데이터를 사용함
+
+#### input 에서 년/월/일 분리 하여 각각 변ㅅ무에 저장하기
+var inputYear = int.parse(input.substring(0, 4)); // "2025" → 2025
+var inputMonth = int.parse(input.substring(5, 7)); // "03" → 3 (월)
+var inputDay = int.parse(input.substring(8, 10)); // "17" → 17 (일)
+
+#### DateTime(2025, 3, 12); → 2025년 3월 12일을 나타내는 DateTime 객체 생성
+DateFormat('EEEE', 'ko_KR') → 날짜를 "월요일", "화요일" 형식으로 변환하기
