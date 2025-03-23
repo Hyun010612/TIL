@@ -13,6 +13,7 @@
 
 ### CPU : I9-13900K
 ### 메인보드 : MSI Z790-A-WIFI (Black)
+### COLORFUL GeForce RTX 4090 토마호크 EX D6X 24GB
 
 # 💻 노트북 스펙
 ..
