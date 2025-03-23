@@ -15,6 +15,7 @@
 ### 메인보드 : MSI Z790-A-WIFI (Black)
 ### GPU : COLORFUL GeForce RTX 4090 토마호크 EX D6X 24GB
 ### RAM : OLOy DDR5-6400 CL32 BLADE RGB Black (64GB(32GB X 2))
+### SSD : 삼성전자 PM9A1 M.2 NVMe 병행수입 ( 2TB )
 
 # 💻 노트북 스펙
 ..
