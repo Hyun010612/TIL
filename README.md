@@ -18,6 +18,7 @@
 #### SSD : 삼성전자 PM9A1 M.2 NVMe 병행수입 ( 2TB )
 #### HDD : Western Digital WB BLUE 5400/256M ( WD4EZAZ, 4TB )
 #### 케이스 : Antec P20C ELITE 6FAN METAL MESH 강화유리
+#### 파워 : Antec HCG 1000W 80PLUS GOLD 폴모듈러
 
 # 💻 노트북 스펙
 ..
