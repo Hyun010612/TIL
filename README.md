@@ -16,7 +16,7 @@
 #### GPU : COLORFUL GeForce RTX 4090 토마호크 EX D6X 24GB
 #### RAM : OLOy DDR5-6400 CL32 BLADE RGB Black (64GB(32GB X 2))
 #### SSD : 삼성전자 PM9A1 M.2 NVMe 병행수입 ( 2TB )
-#### 
+#### HDD : Western Digital WB BLUE 5400/256M ( WD4EZAZ, 4TB )
 
 # 💻 노트북 스펙
 ..
