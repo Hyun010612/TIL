@@ -19,7 +19,8 @@
 #### HDD : Western Digital WB BLUE 5400/256M ( WD4EZAZ, 4TB )
 #### 케이스 : Antec P20C ELITE 6FAN METAL MESH 강화유리
 #### 파워 : Antec HCG 1000W 80PLUS GOLD 폴모듈러
-#### 모니터 : LG 울트라기어 게이밍 모니터 165hz 32인치 QHD / APEX 165hz 27인치 FHD / 제우스랩 144hz 16인치 QHD  
+#### 모니터 : LG 울트라기어 게이밍 모니터 165hz 32인치 QHD / APEX 165hz 27인치 FHD / 제우스랩 144hz 16인치 QHD
+#### 키보드 : 레이저 블랙위도우 옐로우 스위치
 
 # 💻 노트북 스펙
 ..
