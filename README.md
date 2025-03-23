@@ -11,7 +11,7 @@
 
 # 🖥 PC 스펙
 
-#### CPU : I9-13900K
+#### CPU : 인텔 I9-13900K
 #### 메인보드 : MSI Z790-A-WIFI (Black)
 #### GPU : COLORFUL GeForce RTX 4090 토마호크 EX D6X 24GB
 #### RAM : OLOy DDR5-6400 CL32 BLADE RGB Black (64GB(32GB X 2))
