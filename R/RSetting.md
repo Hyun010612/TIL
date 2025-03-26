@@ -8,7 +8,7 @@
 
 ## R 다운로드
 
-[R 다운로드](https://www.r-project.org/)
+### [R 다운로드](https://www.r-project.org/)
 
 ![1](https://github.com/user-attachments/assets/3d5e2f10-c343-457d-8b97-b0ce79b6b2cb)
 #### 왼쪽 메뉴에서 CRAN 클릭
