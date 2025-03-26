@@ -33,4 +33,10 @@
 #### 위에 R을 설치하지 않은경우 R 설치를 누르고 R 설치를 진행하였다면 R Studio를 다운로드 합니다
 
 ## JAVA JDK 설치
-[JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+## [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+
+![7](https://github.com/user-attachments/assets/e6a0357e-dc80-46db-8f44-79f261745d1e)
+#### 동그라미 친 부분을 따라서 Java 8 설치
+
+## [JDK 환경 변수 설정](https://coding-factory.tistory.com/838)
+
