@@ -29,3 +29,5 @@
 
 ### [R Studio](https://rstudio.com/products/rstudio/download/)
 
+![6](https://github.com/user-attachments/assets/3aa4908e-ce84-47fb-813c-357108fe60be)
+#### 위에 R을 설치하지 않은경우 R 설치를 누르고 R 설치를 진행하였다면 R Studio를 다운로드 합니다
