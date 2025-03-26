@@ -24,3 +24,8 @@
 
 ![5](https://github.com/user-attachments/assets/0c907243-c264-4330-9dc1-4e4370b205f8)
 #### R-4.4.3 버전 다운로드 후 실행 설치
+
+##  R Studio 다운로드
+
+### [R Studio](https://rstudio.com/products/rstudio/download/)
+
