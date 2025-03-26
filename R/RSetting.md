@@ -22,3 +22,5 @@
 ![4](https://github.com/user-attachments/assets/da4ad54c-80fe-46f7-9165-71c86c89ab4d)
 #### 처음인 경우 install R for the first time 선택
 
+![5](https://github.com/user-attachments/assets/0c907243-c264-4330-9dc1-4e4370b205f8)
+#### R-4.4.3 버전 다운로드 후 실행 설치
