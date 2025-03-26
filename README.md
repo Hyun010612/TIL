@@ -6,7 +6,7 @@
 ```
 
 * [SDK 설정 25.03.07 수정](https://github.com/Hyun010612/TIL/tree/main/Flutter/day1/setting.md)
-* [R sdk와 R Studio 설치하기]
+* [R sdk와 R Studio 설치하기](https://github.com/Hyun010612/TIL/blob/main/R/RSetting.md)
 
 
 # 🖥 PC 스펙
