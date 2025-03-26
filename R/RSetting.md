@@ -10,3 +10,8 @@
 
 [R 다운로드](https://www.r-project.org/)
 
+![1](https://github.com/user-attachments/assets/3d5e2f10-c343-457d-8b97-b0ce79b6b2cb)
+#### 왼쪽 메뉴에서 CRAN 클릭
+
+![2](https://github.com/user-attachments/assets/c0816788-b622-4ff9-b2d4-7d71adc75d29)
+#### 스크롤 내려서 USA 부분에 첫번째 링크 클릭
