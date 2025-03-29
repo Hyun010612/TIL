@@ -9,9 +9,9 @@
 * [Dart 언어 연습문제 풀어보기](https://github.com/Hyun010612/TIL/blob/main/Dart/example.md)
 * [안드로이드 스튜디오 예제 연습](https://github.com/Hyun010612/TIL/blob/main/Fultter/Example.md)
 
-🕹
+# 🕹 개발환경 구축하기
 ```
-개발 환경 구축하기
+    개발 환경 구축하는 방법을 모아둔 구역입니다
 ```
 * [SDK 설정 25.03.07 수정](https://github.com/Hyun010612/TIL/blob/main/Fultter/setting.md)
 * [R sdk와 R Studio 설치하기](https://github.com/Hyun010612/TIL/blob/main/R/RSetting.md)
