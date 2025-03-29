@@ -36,4 +36,9 @@
 ![11](https://github.com/user-attachments/assets/52c4564f-9ff8-41bf-994a-a0e63fa72eda)
 ### Powershell 에서 flutter doctor 을 입력하여 [v] 가 뜨면 문제 없이 설치완료/ [x]가 떠있다면 해당 프로그램 설치 후 재입력
 
+## Flutter Project 생성하기
+![12](https://github.com/user-attachments/assets/574f59ac-82fa-4195-9b83-4b2d7625f7f9)
+![13](https://github.com/user-attachments/assets/0da187bb-994b-4252-8500-781443c47e8d)
+### Generators 에서 Flutter를 선택 후 Flutter SDK path 경로를 압축 해제한 플러터 /flutter 경로 지정
+
 
