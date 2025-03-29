@@ -5,7 +5,7 @@
     하루 공부한 내용을 정리해서 기록하고 업로드 하는 공간입니다.
 ```
 
-* [SDK 설정 25.03.07 수정](https://github.com/Hyun010612/TIL/tree/main/Flutter/day1/setting.md)
+* [SDK 설정 25.03.07 수정](https://github.com/Hyun010612/TIL/blob/main/Fultter/setting.md)
 * [R sdk와 R Studio 설치하기](https://github.com/Hyun010612/TIL/blob/main/R/RSetting.md)
 * [Dart 언어 연습문제 풀어보기](https://github.com/Hyun010612/TIL/blob/main/Dart/example.md)
 * [안드로이드 스튜디오 예제 연습](https://github.com/Hyun010612/TIL/blob/main/Fultter/Example.md)
