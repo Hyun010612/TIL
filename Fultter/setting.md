@@ -30,4 +30,10 @@
 ![9](https://github.com/user-attachments/assets/a6bcfd08-5ac6-464d-b93c-ca4a3d58bb6c)
 ### 시스템 환경 변수에서 '사용자 변수'탭에 Path 편집 위에서 다운로드한 Flutter 을 압축해제 후 해당 폴더에 /bin 경로 지정
 
+## SDK 설치 유/무 확인하기
+
+![10](https://github.com/user-attachments/assets/3abd7130-7f3d-456f-be26-759a7fdd2423)
+![11](https://github.com/user-attachments/assets/52c4564f-9ff8-41bf-994a-a0e63fa72eda)
+### Powershell 에서 flutter doctor 을 입력하여 [v] 가 뜨면 문제 없이 설치완료/ [x]가 떠있다면 해당 프로그램 설치 후 재입력
+
 
