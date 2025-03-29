@@ -23,3 +23,11 @@
 ![6](https://github.com/user-attachments/assets/73d93bbe-5a6b-4a18-b156-7e875691e841)
 ### Android SDK 에서 SDK Tools 에서 선택되어있는 SDK 다운로드 하기
 
+## 플러터 환경 변수 설정하기
+
+![7](https://github.com/user-attachments/assets/bbb427ea-baa6-49ed-b9d0-e41b5384a577)
+![8](https://github.com/user-attachments/assets/1f335aa3-25c7-41b9-9738-f24bcfb89e8e)
+![9](https://github.com/user-attachments/assets/a6bcfd08-5ac6-464d-b93c-ca4a3d58bb6c)
+### 시스템 환경 변수에서 '사용자 변수'탭에 Path 편집 위에서 다운로드한 Flutter 을 압축해제 후 해당 폴더에 /bin 경로 지정
+
+
