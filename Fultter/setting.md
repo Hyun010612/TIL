@@ -41,4 +41,6 @@
 ![13](https://github.com/user-attachments/assets/0da187bb-994b-4252-8500-781443c47e8d)
 ### Generators 에서 Flutter를 선택 후 Flutter SDK path 경로를 압축 해제한 플러터 /flutter 경로 지정
 
-
+![14](https://github.com/user-attachments/assets/ca433286-cd11-4401-bd16-cec6014c0032)
+![15](https://github.com/user-attachments/assets/70413e79-7bff-4995-9906-289207271f3c)
+### 제목 입력 후 프로젝트 생성
