@@ -176,4 +176,73 @@ body: Center(
 ```
 #### 상단 빨강/파랑이 나뉜 상태에서 파란색을 Column으로 감싸서 위/아래로 1:1비율로 검정 컨테이너 생성
 
+```
+body: Center(  // 화면을 중앙 정렬
+        child: Column(
+          children: [
 
+            // 🔴 상단 50% 영역
+            Expanded(
+              flex: 1,  // 전체 높이의 50%
+              child: Row(
+                children: [
+
+                  // 🔴 왼쪽 영역 (빨간색, 50% 차지)
+                  Expanded(
+                    flex: 1, // 좌우로 50%
+                    child: Container(color: Colors.red),
+                  ),
+
+                  // 🔵 오른쪽 영역 (파란색 + 검정 + 주황, 50% 차지)
+                  Expanded(
+                    flex: 1, // 좌우로 50%
+                    child: Column(
+                      children: [
+
+                        // 🔵 파란색 (상단 50%)
+                        Expanded(
+                          flex: 1, // 상단의 50%
+                          child: Container(color: Colors.blue),
+                        ),
+
+                        // ⚫🟠 하단 50% (검정 + 주황)
+                        Expanded(
+                          flex: 1, // 하단의 50%
+                          child: Row(
+                            children: [
+
+                              // ⚫ 검정색 (좌측 50%)
+                              Expanded(
+                                flex: 1,
+                                child: Container(color: Colors.black),
+                              ),
+
+                              // 🟠 주황색 (우측 50%)
+                              Expanded(
+                                flex: 1,
+                                child: Container(color: Colors.orange),
+                              ),
+
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+                  ),
+
+                ],
+              ),
+            ),
+
+            // 🟡 하단 50% 영역 (노란색)
+            Expanded(
+              flex: 1, // 전체 높이의 50%
+              child: Container(color: Colors.yellow),
+            ),
+
+          ],
+        ),
+      ),
+```
+#### 검정색 컨테이너 부분을 Row로 다시 감싸주면서 위에 실행 결과 이미지와 같은 이미지의 형태로 컨테이너 구현이 가능하다
