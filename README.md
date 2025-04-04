@@ -131,3 +131,49 @@ body: Center(
 ```
 #### 빨강/노랑은 그대로 두고 상단 50%를 차지하고 있는 빨간색 영역을 Column이 아닌 Row로 flex: 1 [1:1] 비율로 나눈후 파란색 컨테이너 생성
 
+
+```
+body: Center(
+  child: Column(
+    children: [
+// 🔴 빨간색 상단 50% 영역
+      Expanded(
+        flex: 1,
+        child: Row( 
+          children: [
+            Expanded(
+              flex: 1,
+              child: Container(color: Colors.red), 
+            ),
+            Expanded(
+              flex: 1,
+              child: Column( /
+                children: [
+// 🔵 파란색 (상단 50%)
+                  Expanded(
+                    flex: 1,
+                    child: Container(color: Colors.blue), 
+                  ),
+// ⚫ 검정색 (하단 50%)
+                  Expanded(
+                    flex: 1,
+                    child: Container(color: Colors.black), 
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+// 🟡 노란색 하단 50% 영역 (노란색)
+      Expanded(
+        flex: 1,
+        child: Container(color: Colors.yellow),
+      ),
+    ],
+  ),
+),
+```
+#### 상단 빨강/파랑이 나뉜 상태에서 파란색을 Column으로 감싸서 위/아래로 1:1비율로 검정 컨테이너 생성
+
+
