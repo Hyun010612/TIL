@@ -58,4 +58,28 @@ late String _currentTime; // 현재 시간을 문자열로 저장할 변수.
 ```
 #### 해당 함수를 쓰는 이유는 위에서 타이머를 1초마다 갱신되어 화면에 표시하는데 해당 위젯이 제거되어도 시간이 1초마다 갱신이 되면 메모리 누수가 발생하기 때문에 위젯이 제거될때 타이머를 취소하여 리소스를 제거해줍니다
 
+```
+body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const Text('현재 시간:', style: TextStyle(fontSize: 20)),
+            // _currentTime 변수에 저장된 현재 시간을 표시.
+            Text(
+              _currentTime,
+              style: const TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+                color: Colors.lightBlue,
+              ),
+            ),
+          ],
+        ),
+      ),
+```
+####  Text에서 현재 저장된 시간 _currentTime을 표시하고 스타일을 통해 자유롭게 설정을 해주고 실행하면 됩니다
+
+![캡처](https://github.com/user-attachments/assets/7db20e6c-8cf9-45b3-b2ca-dd016763211d)
+![캡처1](https://github.com/user-attachments/assets/6d6a5b79-6375-4ad3-8c9e-863508ed43ac)
+
 
