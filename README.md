@@ -69,5 +69,7 @@ body: Center(  // 화면을 중앙 정렬
         ),
       ),
 ```
+## 실행 화면
 ![캡처1](https://github.com/user-attachments/assets/b8efe2de-c70a-4138-827e-3c2cb83726ca)
+
 
