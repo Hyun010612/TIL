@@ -72,4 +72,29 @@ body: Center(  // 화면을 중앙 정렬
 ## 실행 화면
 ![캡처1](https://github.com/user-attachments/assets/b8efe2de-c70a-4138-827e-3c2cb83726ca)
 
+```
+body: Center(
+        child: Column(
+          children: [
+            // 🔴 상단 50% 영역
+            Expanded(
+                flex: 1,
+                child: Container(
+                  color: Colors.red,
+                ),
+            ),
+            // 🟡 하단 50% 영역 (노란색)
+            Expanded(
+                flex: 1,
+                child: Container(
+                  color: Colors.yellow,
+                )
+            )
+          ],
+        ),
+      ),
+```
+
+#### Expanded 위젯은 Row, Column, Flex 내부에서 사용되어 가용 가능한 공간을 유연하게 분배하는 역할을 합니다.
+#### 해당 코드를 보면 Expanded 를  child: Column()을 사용해 위/아래 로 'flex: 1' 1:1로 나누어 빨강/노랑을 화면에 표시합니다
 
