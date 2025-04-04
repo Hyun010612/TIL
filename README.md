@@ -98,3 +98,36 @@ body: Center(
 #### Expanded 위젯은 Row, Column, Flex 내부에서 사용되어 가용 가능한 공간을 유연하게 분배하는 역할을 합니다.
 #### 해당 코드를 보면 Expanded 를  child: Column()을 사용해 위/아래 로 'flex: 1' 1:1로 나누어 빨강/노랑을 화면에 표시합니다
 
+```
+body: Center(
+  child: Column(
+    children: [
+// 🔴 상단 50% 영역
+      Expanded(
+        flex: 1,
+        child: Row(
+          children: [
+ // 🔴 왼쪽 영역 (빨간색, 50% 차지)
+            Expanded(
+              flex: 1,
+              child: Container(color: Colors.red), 
+            ),
+// 🔵 파란색 (상단 50%)
+            Expanded(
+              flex: 1,
+              child: Container(color: Colors.blue),
+            ),
+          ],
+        ),
+      ),
+// 🟡 하단 50% 영역 (노란색)
+      Expanded(
+        flex: 1,
+        child: Container(color: Colors.yellow), 
+      ),
+    ],
+  ),
+),
+```
+#### 빨강/노랑은 그대로 두고 상단 50%를 차지하고 있는 빨간색 영역을 Column이 아닌 Row로 flex: 1 [1:1] 비율로 나눈후 파란색 컨테이너 생성
+
