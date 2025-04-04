@@ -27,11 +27,11 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text("화면 예제 1")),
 
-      body: Center(  // 화면을 중앙 정렬
+      body: Center(
         child: Column(
           children: [
             Expanded(
-              flex: 1, // 상단 검은색 영역
+              flex: 1,
               child: TextField(
                 textAlign: TextAlign.right,
                 style: TextStyle(fontSize: 30),
