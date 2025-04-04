@@ -26,73 +26,88 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("화면 예제 1")),
+
       body: Center(  // 화면을 중앙 정렬
         child: Column(
           children: [
-
-            // 🔴 상단 50% 영역
             Expanded(
-              flex: 1,  // 전체 높이의 50%
-              child: Row(
+              flex: 1, // 상단 검은색 영역
+              child: TextField(
+                textAlign: TextAlign.right,
+                style: TextStyle(fontSize: 30),
+              ),
+            ),
+            Expanded(
+              flex: 3,
+              child: Column(
                 children: [
-
-                  // 🔴 왼쪽 영역 (빨간색, 50% 차지)
                   Expanded(
-                    flex: 1, // 좌우로 50%
-                    child: Container(color: Colors.red),
-                  ),
-
-                  // 🔵 오른쪽 영역 (파란색 + 검정 + 주황, 50% 차지)
-                  Expanded(
-                    flex: 1, // 좌우로 50%
-                    child: Column(
+                    child: Row(
                       children: [
-
-                        // 🔵 파란색 (상단 50%)
-                        Expanded(
-                          flex: 1, // 상단의 50%
-                          child: Container(color: Colors.blue),
-                        ),
-
-                        // ⚫🟠 하단 50% (검정 + 주황)
-                        Expanded(
-                          flex: 1, // 하단의 50%
-                          child: Row(
-                            children: [
-
-                              // ⚫ 검정색 (좌측 50%)
-                              Expanded(
-                                flex: 1,
-                                child: Container(color: Colors.black),
-                              ),
-
-                              // 🟠 주황색 (우측 50%)
-                              Expanded(
-                                flex: 1,
-                                child: Container(color: Colors.orange),
-                              ),
-
-                            ],
-                          ),
-                        ),
-
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('%')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('CE')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('C')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('Del')))),
                       ],
                     ),
                   ),
-
+                  Expanded(
+                    child: Row(
+                      children: [
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('¹/ｘ')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('ｘ²')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('²√')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('÷')))),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      children: [
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('7')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('8')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('9')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('×')))),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      children: [
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('4')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('5')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('6')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('－')))),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      children: [
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('1')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('2')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('3')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('＋')))),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      children: [
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('≒')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('0')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('.')))),
+                        Expanded(child: SizedBox.expand(child: ElevatedButton(onPressed: () {}, child: Text('=')))),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
-
-            // 🟡 하단 50% 영역 (노란색)
-            Expanded(
-              flex: 1, // 전체 높이의 50%
-              child: Container(color: Colors.yellow),
-            ),
-
           ],
         ),
       ),
+
     );
   }
 }
