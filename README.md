@@ -21,7 +21,7 @@
 * [안드로이드 스튜디오 예제 연습](https://github.com/Hyun010612/TIL/blob/main/Fultter/Example.md)
 
 
-# 🖥 PC 스펙
+# 🖥 PC 스펙.
 
 ####  - CPU : 인텔 I9-13900K
 ####  - 메인보드 : MSI Z790-A-WIFI (Black)
