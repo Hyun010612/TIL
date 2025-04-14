@@ -1,17 +1,5 @@
-# untitled1
+## 실행 결과
 
-A new Flutter project.
+![캡쳐](https://github.com/user-attachments/assets/f3a73904-1eb6-4a7c-a772-8fd10333749e)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+### 코드(수정중)
