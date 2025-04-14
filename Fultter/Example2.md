@@ -140,3 +140,37 @@ Push와 Pop이 되어 페이지가 차곡차곡 쌓이고 빠지고 하는것을
 ### initState 와 dispose
 initState() 메서드는 위젯이 생성될때 호출되고, dispose() 메서드는 위젯이 완전히 종료될때 (pop 될때) 호출됩니다.
 
+```
+ @override
+  void initState() {
+    super.initState();
+    print('FirstPage initState()');
+  }
+
+  @override
+  void dispose() {
+    print('FirstPage dispose()');
+    super.dispose();
+  }
+
+--------------------------------------------
+
+@override
+  void initState() {
+    super.initState();
+    print('SecondPage initState()');
+  }
+
+  @override
+  void dispose() {
+    print('SecondPage dispose()');
+    super.dispose();
+  }
+```
+각각 코드를 추가하고 동작을 하면 
+```
+FirstPage > SecondPage로 Push > 뒤로(Pop) 가 나오며
+```
+![5](https://github.com/user-attachments/assets/b1d3668f-a0ac-4a9b-bd4d-9ad8c1284758)
+메인으로 돌아갈땐 SecondPage dispose()가 뜬다
+
