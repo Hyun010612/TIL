@@ -10,3 +10,5 @@
 ### 📝 [화면 표시 예제](https://github.com/Hyun010612/TIL/blob/FlutterEx2)
 
 ### 📝 [버튼을 이용한 계산기 틀 만들기: (수정중)](https://github.com/Hyun010612/TIL/blob/FlutterEx3)
+
+### 📝 [네비게이션 동작 방식 이해](https://github.com/Hyun010612/TIL/blob/main/Fultter/Example2.md)
