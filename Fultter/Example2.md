@@ -123,5 +123,16 @@ class Person {
 First 페이지 에서 다음 페이지로를 눌렀을때 Second 페이지로 넘어갈때 Push가 되어 위에 한칸 쌓이게 되고 이전 페이지로를 눌렀을때 Pop! 이라는 문구를 콘솔창에 뜨게하여 가장 나중에 들어온 두번째 페이지가 가장 먼저 사라지는것을 볼 수 있다.
 
 
-### StatelessWidget 클래스 동작
+### StatelessWidget 클래스 와 Build 동작
+위 코드에서
+```
+FirstPage 에 
+print('FirstPage build'); 추가
+
+Secondpage에
+print('SecondPage build'); 추가
+```
+그후 실행하고 버튼을 누르면
+![4](https://github.com/user-attachments/assets/2ce16707-fe47-4b57-a03b-59fba6098b8b)
+Push와 Pop이 되어 페이지가 차곡차곡 쌓이고 빠지고 하는것을 볼 수 있다
 
