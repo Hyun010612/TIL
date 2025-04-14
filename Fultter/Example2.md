@@ -136,3 +136,7 @@ print('SecondPage build'); 추가
 ![4](https://github.com/user-attachments/assets/2ce16707-fe47-4b57-a03b-59fba6098b8b)
 Push와 Pop이 되어 페이지가 차곡차곡 쌓이고 빠지고 하는것을 볼 수 있다
 
+
+### initState 와 dispose
+initState() 메서드는 위젯이 생성될때 호출되고, dispose() 메서드는 위젯이 완전히 종료될때 (pop 될때) 호출됩니다.
+
